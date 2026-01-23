@@ -136,6 +136,13 @@ hr {
 	}
 }
 
+.canva-wrapper {
+  overflow: hidden;
+}
+
+.canva-wrapper iframe {
+  margin-bottom: -50px; /* prueba valores */
+}
 .sr-only {
 	border: 0;
 	padding: 0;
