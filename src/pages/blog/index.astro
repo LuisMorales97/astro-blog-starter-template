@@ -68,6 +68,12 @@ const posts = (await getCollection('blog')).sort(
 			ul a:hover img {
 				box-shadow: var(--box-shadow);
 			}
+			.canva-wrapper {
+				overflow: hidden;
+				}
+			.canva-wrapper iframe {
+				margin-bottom: -200px; /* prueba valores */
+				}
 			@media (max-width: 720px) {
 				ul {
 					gap: 0.5em;
@@ -82,13 +88,7 @@ const posts = (await getCollection('blog')).sort(
 				ul li:first-child .title {
 					font-size: 1.563em;
 				}
-				.canva-wrapper {
-  overflow: hidden;
-}
-
-.canva-wrapper iframe {
-  margin-bottom: -200px; /* prueba valores */
-}
+				
 			}
 		</style>
 	</head>
