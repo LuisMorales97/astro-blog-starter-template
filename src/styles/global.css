@@ -141,7 +141,7 @@ hr {
 }
 
 .canva-wrapper iframe {
-  margin-bottom: -50px; /* prueba valores */
+  margin-bottom: -200px; /* prueba valores */
 }
 .sr-only {
 	border: 0;
